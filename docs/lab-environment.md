@@ -10,11 +10,11 @@ The environment is designed to provide an isolated setup where Linux configurati
 
 The lab consists of multiple Linux virtual machines.
 
-| VM    | Operating System          | Purpose              |
-| ----- | ------------------------- | -------------------- |
-| VM 01 | Linux [Ubuntu]            | Lab / administration |
-| VM 02 | Linux [RHEL]              | Lab / administration |
-| VM 03 | Linux [Docker/Kubernetes] | Lab / administration |
+| VM    | Operating System          | Purpose                                     |
+| ----- | ------------------------- | ------------------------------------------- |
+| VM 01 | Linux [Ubuntu]            | LFCS / administration                       |
+| VM 02 | Linux [RHEL]              | Linux administration / cross-distro testing |
+| VM 03 | Linux [Docker/Kubernetes] | Containers / Pods lab                       |
 
 Detailed specifications will be documented as the environment evolves.
 
