@@ -196,21 +196,23 @@ Use the actual connection profile identified with:
 nmcli connection show
 ```
 
-A secondary IPv4 address can be added using:
+### Configure the connection
+
+A secondary IPv4 address can be added to an existing NetworkManager connection using `+ipv4.addresses`:
 
 ```bash
 sudo nmcli connection modify "<connection-name>" \
-  +ipv4.addresses "192.168.10.22/24"
+  +ipv4.addresses "<secondary-ip>/<prefix>"
 ```
 
-IPv4, gateway, DNS, and IPv6 can be configured using:
+The complete IPv4, gateway, DNS, and IPv6 configuration can also be specified explicitly:
 
 ```bash
 sudo nmcli connection modify "<connection-name>" \
   ipv4.method manual \
-  ipv4.addresses "192.168.10.12/24" \
-  ipv4.gateway "192.168.10.1" \
-  ipv4.dns "8.8.8.8,1.1.1.1" \
+  ipv4.addresses "<primary-ip>/<prefix>,<secondary-ip>/<prefix>" \
+  ipv4.gateway "<gateway-ip>" \
+  ipv4.dns "<dns1>,<dns2>" \
   ipv6.method disabled
 ```
 
