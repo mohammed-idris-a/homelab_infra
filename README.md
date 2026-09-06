@@ -71,7 +71,7 @@ The goal is to understand how Linux systems work and develop the ability to conf
 ## 📂 Repository Structure
 
 ```text
-homelab-infra/
+homelab_infra/
 │
 ├── docs/
 │   └── lab-environment.md
