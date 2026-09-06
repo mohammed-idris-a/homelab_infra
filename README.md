@@ -72,14 +72,8 @@ The goal is to understand how Linux systems work and develop the ability to conf
 
 ```text
 homelab_infra/
-│
 ├── docs/
 │   └── lab-environment.md
-│
-├── linux/
-│
-├── scripts/
-│
 └── README.md
 ```
 
