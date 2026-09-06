@@ -198,14 +198,14 @@ nmcli connection show
 
 ### Configure the connection
 
-A secondary IPv4 address can be added to an existing NetworkManager connection using `+ipv4.addresses`:
+A secondary IPv4 address can be added to an existing NetworkManager connection using `+ipv4.addresses`.
 
 ```bash
 sudo nmcli connection modify "<connection-name>" \
   +ipv4.addresses "<secondary-ip>/<prefix>"
 ```
 
-The complete IPv4, gateway, DNS, and IPv6 configuration can also be specified explicitly:
+The complete IPv4, gateway, DNS, and IPv6 configuration can also be specified explicitly.
 
 ```bash
 sudo nmcli connection modify "<connection-name>" \
