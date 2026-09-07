@@ -73,14 +73,13 @@ The focus is on understanding how Linux systems work and developing the ability 
 
 ```text
 homelab_infra/
-│
 ├── docs/
 │   └── lab-environment.md
-│
 ├── linux/
-│   └── 01-networking-hostname-resolution/
+│   ├── 01-networking-hostname-resolution/
+│   │   └── README.md
+│   └── 02-time-synchronization/
 │       └── README.md
-│
 └── README.md
 ```
 
@@ -93,6 +92,7 @@ New directories and labs will be added as actual exercises are completed.
 | Lab                                                                                        | Description                                                                                                    | Status |
 | ------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------- | ------ |
 | [01 — Networking, Hostname & Local Resolution](./linux/01-networking-hostname-resolution/) | Hostname configuration, Netplan, NetworkManager, static IPv4, DNS, IPv6, local resolution, and troubleshooting | ✅      |
+| [02 — Time Synchronization](./linux/02-time-synchronization/) | Chrony, systemd-timesyncd, NTP configuration, synchronization verification, and troubleshooting | ✅ |
 
 More labs will be added as they are completed.
 
