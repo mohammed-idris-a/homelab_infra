@@ -90,7 +90,8 @@ homelab_infra/
     │
     └── 04-packet-filtering-and-port-redirection/
         ├── README.md
-        └── 04.1-rhel-almalinux-firewalld.md
+        ├── 04.1-rhel-almalinux-firewalld.md
+        └── 04.2-ubuntu-firewall.md
 ```
 
 New directories and labs will be added as actual exercises are completed.
@@ -104,7 +105,7 @@ New directories and labs will be added as actual exercises are completed.
 | [01 — Networking, Hostname & Local Resolution](./linux/01-networking-hostname-resolution/) | Hostname configuration, Netplan, NetworkManager, static IPv4, DNS, IPv6, local resolution, and troubleshooting | ✅      |
 | [02 — Time Synchronization](./linux/02-time-synchronization/) | Chrony, systemd-timesyncd, NTP configuration, synchronization verification, and troubleshooting | ✅ |
 | [03 — OpenSSH Client & Server](./linux/03-openssh-client-server/) | SSH key authentication, server hardening, configuration validation, service reload, and authentication testing | ✅ |
-| [04 — Packet Filtering & Port Redirection](./linux/04-packet-filtering-and-port-redirection/) | firewalld packet filtering, port forwarding, masquerading, IPv4 forwarding, rich rules, and firewall troubleshooting | 🔄 |
+| 04 | Packet filtering & port redirection | RHEL/AlmaLinux + Ubuntu | firewalld, UFW, iptables, NAT, DNAT, REDIRECT, MASQUERADE, IP forwarding | ✅ |
 
 More labs will be added as they are completed.
 
